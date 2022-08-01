@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body style="padding-top:50px;">
+  <!-- nav bar section 1-->
+  <section class="section1 ">
+    <nav class="navbar fixed-top navbar-expand-lg p-0 " style="background-color:#7633FA;height: 50px;">
+      <section class="container">
+        <span class="d-lg-none" style="width:60px;"></span>
+        <a class="navbar-brand pl-3" href="#"><img id="bootstrap-icon" src="images/oie_transparent.png" height="50px"
+            alt=""></a>
+        <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop" aria-expanded="false" aria-label="Toggle navigation">
+          <svg style="float:right;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white"
+            class="bi bi-three-dots p-0" viewBox="0 0 16 16">
+            <path
+              d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+          </svg>
+        </button>
+  
+        <div  class="collapse navbar-collapse " >
+          <div class="offcanvas-body">
+            <ul class="navbar-nav pl-3 ">
+              <li>
+                <a class="nav-link" href="#">Docs <span class="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Examples</a>
+              </li>
+              <li >
+                <a class="nav-link" href="#">Icons <span class="sr-only">(current)</span></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Themes</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+            
+          </div>
+          <ul>
+            
+          </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+        <div  class="collapse navbar-collapse " style="position:relative;" >
+          <div class="offcanvas-body">
+            <ul class="navbar-nav pl-3 " style="float:right;">
+              <li>
+                <a class="nav-link" href="#"><img src="images/git hub icon.PNG" alt=""></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><img src="images/twitter icon.PNG" alt=""></a>
+              </li>
+              <li >
+                <a class="nav-link" href="#"><img src="images/slack icon.PNG" alt=""></span></a>
+              </li>
+              <li>
+                <a class="nav-link" href="#"><img src="images/open collective icon.PNG" alt=""></a>
+              </li>
+              <li>
+                <select id="version" style="margin-top:10px;width:50px;background-color: #732FF9;color: white;font-size: smaller;border: none;">
+                  <option  value="0" >V5.2</option>
+                  <option value="1">latest(5.2)</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                  <option value="4">Ford</option>
+                  <option value="5">Honda</option>
+                  <option value="6">Jaguar</option>
+                  <option value="7">Land Rover</option>
+                  <option value="8">Mercedes</option>
+                  <option value="9">Mini</option>
+                </select>
+              </li>
+            </ul>
+            
+          </div>
+          <ul>
+            
+          </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+      </section>
+    </nav>
+    
+    <div style="background-color:#7633FA;" class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title text-white" id="offcanvasWithBackdropLabel">Bootstrap</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <hr style="width: 90%;margin-left: auto; margin-right:auto;color:rgb(234, 231, 231);">
+      <div class="row a-color-white">
+        <div class="col-6">
+            <a class="nav-link" href="#">Docs <span class="sr-only">(current)</span></a>
+          </div>
+          <div class="col-6">
+            <a class="nav-link" href="#">Examples</a>
+          </div>
+
+            <div class="col-6">
+            <a class="nav-link" href="#">Icons <span class="sr-only">(current)</span></a>
+          </div>
+          <div class="col-6">
+            <a class="nav-link" href="#">Themes</a>
+          </div>
+         <div class="col-6">
+            <a class="nav-link" href="#">Blog</a>
+          </div> 
+      <hr style="width: 90%;margin-left: auto; margin-right:auto;color:rgb(234, 231, 231);">
+      <div class="col-6">
+        <a class="nav-link" href="#">GitHub</a>
+      </div>
+      <div class="col-6">
+        <a class="nav-link" href="#">twitter</a>
+      </div>
+      <div class="col-6">
+        <a class="nav-link" href="#">Slack</a>
+      </div>
+      <div class="col-6">
+        <a class="nav-link" href="#">Openn Collectiv</a>
+      </div>
+    </div>
+    </div>
+    
+    
+  </section>
+
+  <!-- section 2 -->
+  <section class="section2">
+    <div class="row m-0">
+      <div class="col-lg-12 text-center img-fluid container-fluid"
+        style="background-image:url('images/bootstrap background gradient.PNG'); background-repeat: no-repeat;background-size:cover;">
+        <div style="margin-top:30px; ">
+          <button type="button" class="btn"
+            style="background-color:#FFE484;font-weight: bold;border-radius: 10px; box-shadow: 2px 2px wheat; border: 1px ;">New
+            in v5.2</button>
+          <span>CSS variables, responsive offcanvas, new utilities, and more!
+          </span><br>
+          <img height="140px" src="images/bootstrap-logo-shadow.png" alt="">
+          <h1 style="font-size:3em;font-weight: 600;">Build fast, responsive sites <br> with Bootstrap</h1>
+          <p style="font-size:1.5rem;">Powerful, extensible, and feature-packed frontend toolkit. Build and <br>
+            customize
+            with Sass, utilize prebuilt grid system and components, and <br> bring projects to life with powerful
+            JavaScript plugins.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- srection 3 -->
+
+  <section class="section3 container ">
+    <div class="row  justify-content-center ">
+      <div class="col-lg-3 col-11 d-inline-block text-center mt-3" style="height:65px;margin-right: 10px;background-color:#ECE4E8;border-radius: 15px;">
+        <pre>
+
+$   npm i bootstrap@5.2.0</pre>
+      </div>
+      <div class="col-lg-3 col-11 d-inline-block text-center mt-3" style="height:65px;margin-right: 10px;background-color:#732FF9;border-radius: 15px;color: white; font-size: larger;">
+        <b class="d-inline-block p-3">Read the docs</b>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center " id="row-3">
+        <p> Currently
+          <strong>v5.2.0</strong>
+          <span>·</span>
+          <a href="#">Download </a>
+          <span>·</span>
+          <a href="#"> v4.6.x docs</a>
+          <span>·</span>
+          <a href="#"> All releases</a>
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-6">
+        <img src="images/adobe image.png" style="display: inline-block;float:right;" height="100px" alt="">
+      </div>
+      <div class="col-6 p-0">
+        <p class="d-inline-block ">
+          Limited time offer: Get 10 free Adobe <br>
+          Stock images. <br>
+          <span class="mt-2 m-0">
+            ads via Carbon
+          </span>
+        </p>
+
+      </div>
+    </div>
+
+
+
+
+
+    <div class="row text-center">
+      <div class="col-12  " style="margin-top:100px ;">
+        <img src="images/lessGreater.PNG" alt="">
+        <h1>Get started any way you want</h1>
+        <p style="font-size: 1.25rem;">Jump right into building with Bootstrap—use the CDN, install it via package <br>
+          manager, or download the source code.</p>
+        <a href="#"
+          style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px">Read
+          installation docs</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 4 -->
+
+  <section class="section4 container">
+    <div class="row mt-5">
+      <div>
+
+      </div>
+      <div class="col-lg-6">
+        <h3>Install via package manager</h3>
+        <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package
+          managed installs don’t include documentation or our full build scripts. You can also <a href=""
+            style="text-decoration:underline;"> use our npm template
+            repo</a> to quickly generate a Bootstrap project via npm.</p>
+        <div style="height: 70px;border-radius: 10px; background-color: #e4e4e4;">
+          <pre>
+             <span>
+  
+           $  </span>npm install bootstrap@5.2.0
+            </pre>
+        </div>
+        <div style="width: 100%;height: 70px;border-radius: 10px; background-color: #e4e4e4;margin-top:20px;">
+          <pre>
+              <span>
+   
+            $  </span>npm install bootstrap@5.2.0
+             </pre>
+        </div>
+        <p class="mt-4"> <a href="" style="text-decoration:underline;"> Read our installation docs </a> for more info
+          and additional package managers.</p>
+      </div>
+      <div class="col-lg-6">
+        <div>
+          <h3>Include via CDN</h3>
+          <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package
+            managed installs don’t include documentation or our full build scripts. You can also use our npm template
+            repo to quickly generate a Bootstrap project via npm.</p>
+          <div style="width: 100%;height: 80px;border-radius: 10px; background-color: #e4e4e4;">
+            <pre>
+
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"
+          </pre>
+          </div>
+
+
+        </div>
+        <div style="width: 100%;height: 80px;border-radius: 10px; background-color: #e4e4e4;margin-top:30px;">
+          <pre>
+            <span>
+              "https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+            </span>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 5 -->
+
+  <section class="section5 container-fluid mt-5">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4>Read our getting started guides</h4>
+        <p>Get a jump on including Bootstrap's source files in a new project with our official guides.</p>
+        <div class="d-flex flex-row justify-content-center mr-auto ml-auto" style="width:50%;">
+          <div class="mr-3">
+            <img style="display:block;height:66px;" src="images/webpack.png" alt="">
+            <label>Wepack</label>
+          </div>
+          <div class="mr-3">
+            <img style="display:block;height:66px;" src="images/parcel.png" alt="">
+            <label>Parcel</label>
+          </div>
+          <div class="mr-3">
+            <img style="display:block;height:66px;" src="images/vite.png" alt="">
+            <label>Vite</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 6 -->
+  <section class="section6 container mt-5 ">
+    <div class="row">
+      <div class="col-lg-7 m-0">
+        <div>
+          sdasdasdasd
+        </div>
+        <div class="mb-3">
+          <h2 style="font-size: 3rem;">
+            Customize everything with Sass
+          </h2>
+        </div>
+        <div>
+          <p>Bootstrap utilizes Sass for a modular and customizable architecture. Import only the components you need,
+            enable global options like gradients and shadows, and write your own CSS with our variables, maps,
+            functions, and mixins.</p>
+        </div>
+        <a href="#"
+          style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px">
+          Learn more about customizing
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 7 -->
+
+  <section class="section7 container">
+    <div class="row mt-5">
+      <div>
+
+      </div>
+      <div class="col-lg-6">
+        <h3>Include all of Bootstrap’s Sass</h3>
+        <p>Import one stylesheet and you're off to the races with every feature of our CSS.</p>
+        <div style="height: 200px;border-radius: 10px; background-color: #e4e4e4;">
+          <pre>
+
+   // Variable overrides first
+   $primary: #900;
+   $enable-shadows: true;
+   $prefix: "mo-";
+              
+  // Then import Bootstrap
+  @import "../node_modules/bootstrap/scss/bootstrap";
+            </pre>
+        </div>
+        <p>Learn more about our <a href="#" style="text-decoration:underline;"> global Sass options.</a> </p>
+      </div>
+      <div class="col-lg-6">
+        <div>
+          <h3>Include via CDN</h3>
+          <p>Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, Composer, or Meteor. Package
+            managed installs don’t include documentation or our full build scripts. You can also use our npm template
+            repo to quickly generate a Bootstrap project via npm.</p>
+          <div style="width: 100%;height: 500px;border-radius: 10px; background-color: #e4e4e4;">
+            <pre>
+
+    // Functions first
+    @import "../node_modules/bootstrap/scss/functions";
+
+    // Variable overrides second
+    $primary: #900;
+    $enable-shadows: true;
+    $prefix: "mo-";
+
+    // Required Bootstrap imports
+    @import "../node_modules/bootstrap/scss/variables";
+    @import "../node_modules/bootstrap/scss/maps";
+    @import "../node_modules/bootstrap/scss/mixins";
+    @import "../node_modules/bootstrap/scss/root";
+
+    // Optional components
+    @import "../node_modules/bootstrap/scss/utilities";
+    @import "../node_modules/bootstrap/scss/reboot";
+    @import "../node_modules/bootstrap/scss/containers";
+    @import "../node_modules/bootstrap/scss/grid";
+    @import "../node_modules/bootstrap/scss/helpers";
+    @import "../node_modules/bootstrap/scss/utilities/api";
+          </pre>
+          </div>
+        </div>
+        <p>Learn more about <a href="#" style="text-decoration:underline;">using Bootstrap with Sass.</a> </p>
+      </div>
+    </div>
+  </section>
+  <!-- section 8 -->
+
+  <section class="section8 container mt-5 ">
+    <div class="row">
+      <div class="col-lg-7">
+        <img src="images/opening closing braces.PNG" alt="">
+        <h1 style="font-size:3em;">Build and extend in real-time with CSS variables</h1>
+        <p>Bootstrap 5 is evolving with each release to better utilize CSS variables for global theme styles, individual
+          components, and even utilities. We provide dozens of variables for colors, font styles, and more at a :root
+          level for use anywhere. On components and utilities, CSS variables are scoped to the relevant class and can
+          easily be modified.</p>
+        <a href="#"
+          style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px">
+          Learn more about customizing
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 9 -->
+
+  <section class="section9 container mt-5 mb-5">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>Using CSS variables</h3>
+        <p>Use any of our global :root variables to write new styles. CSS variables use the var(--bs-variableName)
+          syntax and can be inherited by children elements.</p>
+        <div style="width: 100%;height: 260px;border-radius: 10px; background-color: #e4e4e4;">
+          <pre>
+
+  .component {
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+  }
+
+  .component-header {
+    color: var(--bs-purple);
+  }
+            </pre>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div>
+          <h3>Using CSS variables</h3>
+          <p>Use any of our global :root variables to write new styles. CSS variables use the var(--bs-variableName)
+            syntax and can be inherited by children elements.</p>
+          <div style="width: 100%;height: 280px;border-radius: 10px; background-color: #e4e4e4;">
+            <pre>
+
+      .body {
+        --bs-body-font-family: var(--bs-font-monospace);
+        --bs-body-line-height: 1.4;
+        --bs-body-bg: var(--bs-gray-100);
+      }
+      
+      .table {
+        --bs-table-color: var(--bs-gray-600);
+        --bs-table-bg: var(--bs-gray-100);
+        --bs-table-border-color: transparent;
+      }
+            </pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 10 -->
+  <!-- <section class="section10 container">
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <img src="images/components + api.PNG" alt="">
+        <div class="col-12 p-0 ">
+          <h2 style="font-size:2.75rem;">Components, meet the Utility API</h2>
+        </div>
+        <div class="col-10 p-0">
+          <p>New in Bootstrap 5, our utilities are now generated by our Utility API. We built it as a feature-packed
+            Sass map that can be quickly and easily customized. It's never been easier to add, remove, or modify any
+            utility classes. Make utilities responsive, add pseudo-class variants, and give them custom names.</p>
+        </div>
+        <a href="#"
+          style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px">
+          Learn more about customizing
+        </a> <br>
+        <a href="#"
+          style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px">
+          Learn more about customizing
+        </a>
+      </div>
+      <div class="col-md-6" id="custom-class">
+        <div class="section-10-col-2">
+          <b>Quickly customize components</b>
+          <hr>
+          <p id="custom-p">dfsdfsdfsdf</p>
+          <ul>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+<section class="section11 mt-5 container">
+  <div class="row  ">
+    <div class="col-lg-6">
+      <img src="images/bootstrap-icons.PNG" alt="">
+      <div class="col-12 p-0 ">
+        <h2 style="font-size:2.75rem;">Personalize it with Bootstrap Icons</h2>
+      </div>
+      <div class="col-10 p-0">
+        <p>Bootstrap Icons is an open source SVG icon library featuring over 1,500 glyphs, with more added every release. They're designed to work in any project, whether you use Bootstrap itself or not. Use them as SVGs or icon fonts—both options give you vector scaling and easy customization via CSS.</p>
+      </div>
+      <a href="#"
+        style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px;">
+        Get Bootstrap Icons
+      </a> 
+    </div>
+    <div class="col-lg-6 mt-3">
+      <img class="col-12 p-0" src="images/bootstrap-icons-real.png">
+    </div>
+  </div>
+  <div class="row" style="margin-top:100px;">
+    <div class="col-lg-6">
+      <img src="images/drop icon.PNG" alt="">
+      <div class="col-12 p-0 ">
+        <h2 style="font-size:2.75rem;">Make it yours with official Bootstrap Themes</h2>
+      </div>
+      <div class="col-10 p-0">
+        <p>Take Bootstrap to the next level with premium themes from the official Bootstrap Themes marketplace. Themes are built on Bootstrap as their own extended frameworks, rich with new components and plugins, documentation, and powerful build tools.</p>
+      </div>
+      <a href="#"
+        style="text-decoration:none;color: hsl(216, 81%, 36%); font-size: 1.25rem;border-bottom: 3px solid rgba(13,110,253,0.5);padding-bottom: 3px;">
+        Browse Bootstrap Themes
+      </a> 
+    </div>
+    <div class="col-lg-6 mt-3">
+      <img class="col-12 p-0" src="images/bootstrap-themes.png">
+    </div>
+  </div>
+
+</section>
+<div class="footer-main py-4">
+<footer class="section12 container">
+  <div class="row custom-footer-list">
+      <div class="col-lg-3 col-12">
+        <img class="d-inline-block" src="images/bootstrap-black-icon.PNG" alt="">
+        <h4 class="d-inline-block">Bootstrap</h4>
+        <p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
+        <p>Code licensed MIT, docs CC BY 3.0.</p>
+        <p>Currently v5.2.0.</p>
+      </div>
+      <div class="col-lg-1 d-none d-lg-block  "></div>
+      <div class="col-lg-2 col-6 mt-5">
+        <b class="d-block">Links</b>
+        <a class="d-block" href="">Home</a>
+        <a class="d-block" href="">Docs</a>
+        <a class="d-block" href="">Examples</a>
+        <a class="d-block" href="">Icons</a>
+        <a class="d-block" href="">Themes</a>
+        <a class="d-block" href="">Blog</a>
+        <a class="d-block" href="">Swag Store</a>
+      </div>
+      <div class="col-lg-2 col-6 mt-5 ">
+        <b class="d-block">Guides</b>
+        <a class="d-block" href="">Getting started</a>
+        <a class="d-block" href="">Starter template</a>
+        <a class="d-block" href="">Webpack</a>
+        <a class="d-block" href="">Parcel</a>
+        <a class="d-block" href="">Vite</a>
+      </div> 
+      <div class="col-lg-2 col-6 mt-5">
+        <b class="d-block">Projects</b>
+        <a class="d-block" href="">Bootstrap 5</a>
+        <a class="d-block" href="">Bootstrap 4</a>
+        <a class="d-block" href="">Icons</a>
+        <a class="d-block" href="">RFS</a>
+        <a class="d-block" href="">npm starter</a>
+      </div> 
+      <div class="col-lg-2 col-6 mt-5">
+        <b class="d-block">Community</b>
+        <a class="d-block" href="">Issues</a>
+        <a class="d-block" href="">Corporate</a>
+        <a class="d-block" href="">sponsors</a>
+        <a class="d-block" href="">Open Collective</a>
+        <a class="d-block" href="">Slack</a>
+        <a class="d-block" href="">Stack Overflow</a>
+      </div>  
+  </div>
+</footer>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
